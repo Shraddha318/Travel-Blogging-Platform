@@ -1,0 +1,44 @@
+.cards{
+   display: grid;
+   grid-template-columns: repeat(3,1fr);
+   gap: 30px;
+   width: 80%;
+   padding: 15px;
+   margin: 20px auto;
+}
+.card1{
+    background-image: url('https://static.wixstatic.com/media/5bfb6f_9f2519d5fc2d41f990a10dd92eb8658d.jpg/v1/fill/w_393,h_325,al_c,q_80,usm_0.66_1.00_0.01,enc_auto/5bfb6f_9f2519d5fc2d41f990a10dd92eb8658d.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    flex-direction: column;
+   border-radius: 2px;
+   box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 3px 0px, rgba(0, 0, 0, 0.06) 0px 1px 2px 0px;
+}
+.card2{
+    background-image: url('https://static.wixstatic.com/media/5bfb6f_ea37f67cad544b348df9f3d0ff40f282.jpg/v1/fill/w_393,h_325,al_c,q_80,usm_0.66_1.00_0.01,enc_auto/5bfb6f_ea37f67cad544b348df9f3d0ff40f282.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 300px;
+    display: flex-end;
+    align-items: center;
+    justify-content: flex-end;
+    flex-direction: column;
+    border-radius: 2px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 3px 0px, rgba(0, 0, 0, 0.06) 0px 1px 2px 0px;
+}
+.card3{
+    background-image: url('https://static.wixstatic.com/media/5bfb6f_c667d0c9bd634b1aa2b29311795f3c51.jpg/v1/fill/w_394,h_325,al_c,q_80,usm_0.66_1.00_0.01,enc_auto/5bfb6f_c667d0c9bd634b1aa2b29311795f3c51.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 300px;
+    display: flex-end;
+    align-items: center;
+    justify-content: flex-end;
+    flex-direction: column;
+    border-radius: 2px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 3px 0px, rgba(0, 0, 0, 0.06) 0px 1px 2px 0px;
+}

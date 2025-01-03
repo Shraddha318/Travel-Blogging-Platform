@@ -1,0 +1,24 @@
+.signupformparent{
+    width: 99.8%;
+    /* border: 2px solid black; */
+    height: 660px;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 0px;
+    padding: 40px;
+    margin: auto;
+    /* border-radius: 8px; */
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 3px 0px, rgba(0, 0, 0, 0.06) 0px 1px 2px 0px;
+    background-image: url("https://cdn.sivanaspirit.com/wp-content/uploads/2018/08/07033609/cf55ed3256358887ad2f04848bfa085b_featured.jpg");
+    background-repeat: no-repeat;
+   background-size: cover;
+}
+.animages{
+    /* border: 2px solid black; */
+    margin: auto 0px;
+    border-radius: 8px;
+    text-align: start;
+}
+.signup_quote{
+    margin: 0px;
+}

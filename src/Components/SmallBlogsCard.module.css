@@ -1,0 +1,12 @@
+.sblogscard{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    flex-direction: column;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 200px;
+    padding: 25px;
+    border-radius: 8px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 3px 0px, rgba(0, 0, 0, 0.06) 0px 1px 2px 0px;
+}

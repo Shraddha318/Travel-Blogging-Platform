@@ -1,0 +1,20 @@
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 99.8%;
+    height: 50px;
+    position: sticky;
+    top: 0;
+    overflow: hidden;
+    background-color: #6d6969ff;
+    margin: auto;
+    background-color: rgba(0,0,0,0.2);
+}
+.nav_element{
+    margin-right: 10px;
+    margin-left: 10px;
+    text-decoration: none;
+    color: #e2e2e2ff;
+    font-weight: 500;
+}
