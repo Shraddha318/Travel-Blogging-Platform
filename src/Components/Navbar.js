@@ -1,15 +1,24 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
+import { Box, Flex, Button } from '@chakra-ui/react';
 
 function Navbar() {
   return (
-    <nav>
-      <ul>
-        <li><Link to="/">Home</Link></li>
-        <li><Link to="/about">About</Link></li>
-        <li><Link to="/blog">Blog</Link></li>
-      </ul>
-    </nav>
+    <Box bg="teal.500" p={4}>
+      <Flex as="nav" justify="space-between" align="center">
+        <Box>
+          <Link to="/">
+            <Button colorScheme="teal" variant="ghost">Home</Button>
+          </Link>
+          <Link to="/about">
+            <Button colorScheme="teal" variant="ghost">About</Button>
+          </Link>
+          <Link to="/blog">
+            <Button colorScheme="teal" variant="ghost">Blog</Button>
+          </Link>
+        </Box>
+      </Flex>
+    </Box>
   );
 }
 
